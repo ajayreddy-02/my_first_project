@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/06/13/63/25/1000_F_613632507_SZvMVsaZoeYb2PQoIjspUUdoJdy6c9Ps.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#clock-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(12, 215, 201);
+    
+    width: 100%;
+}
